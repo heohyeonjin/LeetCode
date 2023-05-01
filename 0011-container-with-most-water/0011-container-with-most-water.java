@@ -14,9 +14,6 @@ class Solution {
     public static int evalArea(int[] height){
         int h = Math.min(height[left],height[right]);
         int w = right-left;
-        System.out.println(left+","+right);
-        System.out.println(h*w);
-
         if(height[left]<height[right]){
             left++;
         }
